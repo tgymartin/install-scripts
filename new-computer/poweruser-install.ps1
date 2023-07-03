@@ -1,4 +1,4 @@
-# Script for installing and seting up commonly used software on a clean windows install
+# Script for installing and setting up commonly used software on a clean windows install
 # Last updated 03 July 2023
 
 # SECURITY WARNING: Please read all lines before running this script!
