@@ -1,0 +1,15 @@
+virtualenv
+virtualenvwrapper
+pipenv
+numpy
+scipy
+pandas
+jupyter
+# psycopg2
+seaborn
+asyncio
+aiohttp
+httpx
+pathlib
+# redis[hiredis]
+cryptography
