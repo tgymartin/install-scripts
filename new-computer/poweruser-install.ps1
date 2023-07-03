@@ -60,8 +60,15 @@ choco install python3 -y
 pip install "poweruser-python3-requirements.txt"
 pip install -U scikit-learn
 
-# Node.js
+# Node.js/Typescript
 choco install nodejs.install -y
+choco install typescript -y
+
+# React.js
+# npm install react react-dom --save
+# npm install webpack webpack-dev-server webpack-cli --save
+# npm install babel-core babel-loader babel-preset-env babel-preset-react babel-webpack-plugin --save-dev
+# npm install bootstrap@3
 
 # LaTeX
 choco install miktex.install -y
