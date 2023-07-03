@@ -19,6 +19,12 @@ choco install everything -y # Everything Search Engine - locate files and folder
 
 # Windows Terminal Customisation
 choco install nerd-fonts-cascadiacode -y
+choco install firacode -y
+choco install cascadiacode -y
+choco install cascadiacodepl -y
+choco install cascadiafonts -y
+choco install nerd-fonts-ubuntumono -y
+choco install nerd-fonts-ubuntu -y
 choco install oh-my-posh -y
 choco install posh-git-hg -y
 choco install terminal-icons.powershell -y
@@ -57,6 +63,10 @@ pip install -U scikit-learn
 # Node.js
 choco install nodejs.install -y
 
+# LaTeX
+choco install miktex.install -y
+choco install texstudio.install -y
+
 # R programming language
 # choco install r -y
 # choco install r.studio -y
@@ -94,6 +104,7 @@ choco install vscode-autohotkey -y
 # Database Clients
 # choco install dbeaver -y
 # choco install pgadmin4 -y
+# choco install sql-server-management-studio -y
 # choco install dbgate.install -y
 # choco install beekeeper-studio.install -y
 # choco install databasemaster -y
@@ -102,9 +113,13 @@ choco install vscode-autohotkey -y
 
 # Misc coding
 choco install postman -y
+choco install fiddler -y
+choco install git-fork -y
 # choco install electron -y # Build cross platform desktop apps with web technologies
 # choco install soapui -y
 # choco install azure-cli -y
+# choco install azure-data-studio -y
+# choco install azcopy -y
 # choco install android-sdk -y
 
 # Browsers
@@ -112,11 +127,13 @@ choco install googlechrome -y
 choco install opera -y
 choco install firefox -y
 choco install brave -y
+choco install tor-browser -y
 
 # Microsoft 365 etc
 choco install microsoft-teams.install -y
 choco install onedrive -y
-choco install office365homepremium -y
+choco install office365proplus -y
+# choco install powerbi -y
 
 # Open Source Engineering 
 # 3D, Electronics, CAD Tools, etc
@@ -138,14 +155,16 @@ choco install autodesk-fusion360 -y
 # choco install autocad -y
 # choco install inventor -y
 
-# Photo Editors
+# Photo/Video Editors
 choco install gimp -y
 choco install darktable -y
 choco install exiftool -y
+choco install shotcut.install -y
 
 # Creative tools
 choco install blender -y
 choco install inkscape -y
+# choco install imagemagick.app -y
 
 # Unity Game Engine
 # choco install unity -y
@@ -153,6 +172,9 @@ choco install inkscape -y
 
 # Libreoffice
 choco install libreoffice-fresh -y
+
+# Mathematics
+choco install geogebra -y
 
 # Media
 choco install spotify -y
@@ -193,16 +215,29 @@ choco install anydesk.install -y
 choco install obs-studio -y
 choco install xca -y
 choco install etcher -y
-choco install miktex.install -y
+choco install rufus -y
+choco install filezilla -y
+choco install teracopy -y
+choco install notepadplusplus.install -y
+# choco install wakemeonlan -y
+# choco install sysinternals -y # utilities to help you manage, troubleshoot and diagnose your Windows systems and applications.
 # choco install handbrake.install -y
 # choco install youtube-dl-gui -y
 # choco install youtube-downloader -y
 # choco install tightvnc -y
 
 # Network Security
-choco install wireshark -y
-choco install advanced-ip-scanner -y
-choco install winlogbeat -y
+# choco install wireshark -y
+# choco install advanced-ip-scanner -y
+# choco install winlogbeat -y
+# choco install bruteshark -y
+# choco install network-miner -y
+# choco install httpnetworksniffer -y
+# choco install networktrafficview -y
+
+# VPN
+# choco install nordvpn -y
+# choco install expressvpn -y
 
 # Gaming
 choco install steam -y
@@ -218,8 +253,11 @@ choco install duplicati -y
 # choco install registry-backup -y
 # choco install hasleobackupsuite -y
 
+# Keepass Password Manager
+choco install keepass -y
+
 # Bitwarden Password Manager
-choco install bitwarden -y
+# choco install bitwarden -y
 
 # LastPass Password Manager
 # choco install lastpass -y
@@ -236,6 +274,16 @@ Start-Process "https://www.interactivebrokers.com.sg/en"
 Start-Process "https://www.moomoo.com/sg"
 Start-Process "https://tastytrade.com/"
 
+# Chocolatey updates
+choco install -y choco-package-list-backup
+choco install -y instchoco
+choco install -y choco-upgrade-all-at
+choco install -y choco-cleaner
+
+# Choco packages maintenance
+choco install -y chocolatey-fastanswers.extension
+choco install -y windows-iso-downloader # Easily download Windows and Office disk images
+choco install -y ag
 
 # From https://pureinfotech.com/install-windows-10-update-powershell/
 choco install pswinupdate -y
